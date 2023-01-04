@@ -12,13 +12,12 @@ change_settings({"IMAGEMAGICK_BINARY": r"C:\Program Files\ImageMagick-7.1.0-Q16-
 
 
 
-# important varialbe
-publickey = 'SF3CQ6ruhi3WZj01ofGHSg'
-
-privatekey = 'U2h-I65OhhLt8gPhbT8GyHLZDwPc6Q'
-
+# Settings for your api key
+publickey = ''
+privatekey = ''
 
 
+#which subreddit to go to
 Subredit = ["AskReddit"]
 
 
@@ -39,13 +38,13 @@ Stock_video_file_path = ['minecraftvideoclip/minecraft1.mp4','minecraftvideoclip
 
 textgenerator = lambda txt: TextClip(txt, font='Visage Outline', fontsize=60, color='white' , kerning=-2, interline=-1,size = screensize, method='caption')
 
-
+#password file
 with open('password.txt', 'r') as f:
         pw = f.read()
     
 data = {
         'grant_type': "password",
-        "username" :"BobickKing",
+        "username" :"Username",
         "password" : pw }
     
 
