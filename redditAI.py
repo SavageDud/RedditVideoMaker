@@ -33,6 +33,7 @@ engine.setProperty('voice', voices[0].id)
 #settings of video
 screensize = (1080,1920)
 
+#importante setting of video file paths
 Stock_video_file_path = ['minecraftvideoclip/minecraft1.mp4','minecraftvideoclip/minecraft2.mp4','minecraftvideoclip/minecraft3.mp4']
 
 
